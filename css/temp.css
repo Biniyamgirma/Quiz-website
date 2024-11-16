@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #88D66C;
+    color: #f0f0f0;
+}
+#logo-image {
+    width: 42px;
+    height: 42px;
+}
+
+#profilePicture img{
+    width:50px; 
+    height:50px; 
+    object-fit:cover;
+    /* padding: 2px; */
+    border: 2px solid #188FA7;
+}
+.center-text {
+    text-align: center;
+    align-content: center;
+}
+.bg-first-color {
+    background-color: #0a005a;
+}
+.c-red {
+    color: #fc411e;
+}
+.c-wihte {
+    color: #f0f0f0;
+}
+#hello-color {
+    color: #f0f0f0;
+}
+.c-wihte:hover{
+    color: #b19d9d;
+}
+.style-edit-qus {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.body-for-edit-page {
+    background-color: #ecceae33;
+}
+
+.tabe-color> tbody > tr:hover > *{
+    background-color: #04d00134;
+    cursor: pointer;
+}
+.btn-bg-color-for-red {
+    background-color: #034732;
+
+}
+.btn-bg-color-for-red:hover {
+    background-color: #033b2a;
+}
+@media (max-width:991px) {
+    .offcanvas-start {
+        background:transparent;
+        margin: 10% 10%; 
+    }
+    .email-font {
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #062031;
+    }
+    .btn-color {
+        background-color: #134B70;
+        border: 1px solid #134B70;
+        color: #ffffff;
+    }
+}

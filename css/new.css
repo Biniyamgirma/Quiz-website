@@ -1,0 +1,150 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.my-class:hover{
+    /* color: #FF8225; */
+    color: #F8EDED;
+    border: 1px solid #134B70;
+    background-color: #134B70;
+}
+.about-section {
+    width: 40rem;
+    height: auto;
+    margin-top: 72px;
+    margin-left: 30px;
+    background-color: #e8f3fd;
+    color: #198ef9;
+    box-shadow: 0 4px 8px 0 rgba(57, 153, 24, 0.2), 0 6px 20px 0 rgba(57, 153, 24, 0.19);
+}
+.about-section1 {
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+}
+.signup-btn {
+    background-color: #134B70;
+     padding-left: 16px;
+     padding-right: 16px;
+}
+.main-card-body {
+    height: 460px;
+     margin-bottom: 40px;
+      background-color: #88D66C;
+}
+.bottom {
+    background-color: #134B70;
+    display: inline-flex;
+     width: 100%;
+}
+.about-section3 {
+    display: inline-flex;
+    max-width: auto;
+    height: 250px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.bottom-color{
+    color: #EEEEEE;
+}
+.form-label {
+    color: #EEEEEE;
+}
+
+.socal-link {
+    display: inline-flex;
+}
+.socal-link a img {
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+    filter: brightness(0) saturate(100%) invert(78%) sepia(20%) saturate(998%) hue-rotate(58deg) brightness(97%) contrast(86%);}
+.socal-link a img:hover{
+    filter: brightness(0) saturate(100%) invert(50%) sepia(52%) saturate(500%) hue-rotate(59deg) brightness(93%) contrast(87%);
+    height: 28px;
+    width: 28px;
+}
+.about-card-body {
+    height: auto;
+     margin-bottom: 40px;
+      background-color: transparent;
+}
+.custom-btn-aboutUs a{
+    background-color: #88D66C;
+    border-color: #134B70;
+}
+.custom-btn-aboutUs a:hover{
+    background-color: #65a64e;
+}
+.about-card2 {
+    border-color: #134B70;
+}
+.custom-btn-aboutUs002 {
+    background-color:rgba(19, 75, 112, 0.3);
+    border-radius: 5px;
+}
+.custom-btn-aboutUs002 p {
+    color: #EEEEEE;
+}
+.custom-btn-aboutUs002 h5 {
+    color: #f9f8f8;
+}
+.container-fluid-custom {
+    min-width: 100vh;
+}
+.image-contanir{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    max-height: 30px;
+    width: 85%;
+}
+.image-contanir img{
+    height: 100%;
+    border-radius: 50%;
+}
+.image-contanir h3{
+    color: #EEEEEE;
+    
+}
+.profile-images {
+    border-radius: 20px;
+    
+}
+@media (max-width:991px) {
+    .sidebar {
+        background-color: rgba(19, 75, 112, 0.17);
+        backdrop-filter: blur(15px);
+    }
+    .my-class {
+        color: white;
+    }
+    .about-section {
+        margin-top: 60px;
+        margin-bottom: auto;
+        margin-left: 20px;
+        text-wrap: wrap;
+        width:auto
+    }
+    .cont {
+        display: inline-block;
+    }
+    .main-card-body {
+        height: 100vh;
+        margin-bottom: 40px;
+        background-color: #88D66C;
+    }
+    .main-card-body .signup-btn{
+        background-color: #134B70;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .bottom {
+        display: block;
+    }
+    .custom-btn-aboutUs{
+        margin-bottom: 8px;
+    }
+}

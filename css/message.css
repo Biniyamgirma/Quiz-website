@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.all-section {
+    display: flex;
+    margin: 30px auto;
+    /* border: 1px solid black; */
+    border-radius: 16px;
+    background-color:  #0b005a17;
+}
+.image-container img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 30px;
+  
+}
+.masage-email {
+    color: #640D5F;
+}
+.image-cotainer-for-profile {
+    border: 2px solid #15B392;
+    padding: 2px;
+}
+.one-person-message .container-info img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    padding: 8px;
+}
+.image-container {
+    display: block;
+    width: 30%;
+    height: 40%;
+    margin: 20px;
+    padding: 22px;
+}
+.full-name p{
+    color: #640D5F;
+}
+.toast-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.t-container {
+    max-width: 800px;
+    border-radius: 16px;
+    margin: 8px;
+    background-color: #15B392;
+}
+.me-auto {
+    color: #640D5F;
+}
+.toast{
+    margin: 4px;
+}
+.Read {
+    filter: brightness(0) saturate(100%) invert(14%) sepia(58%) saturate(3487%) hue-rotate(287deg) brightness(80%) contrast(105%);
+}
+.UnRead {
+    filter: brightness(0) saturate(100%) invert(55%) sepia(66%) saturate(7118%) hue-rotate(346deg) brightness(102%) contrast(109%);
+}

@@ -1,2 +1,2 @@
 # Quiz-website
-when using this project you need to add conn.php file in root folder 
+when using this project you need to add your own config in conn.php file in root folder 

@@ -23,7 +23,7 @@
             $firstname=$row['first_name'];
             $lastname=$row['last_name'];
             $email=$row['email'];
-            $password=$row['pass_word'];
+            
             $image=$row['file'];
             if(isset($_POST['cancelButton'])){
                 header('location:adminpage.php');
@@ -31,12 +31,12 @@
                 $firstname=$_POST['firstName'];
                 $lastname=$_POST['lastName'];
                 $email=$_POST['emailInput'];
-                $password=$_POST['passwordInput'];
+                
                 $file_name=$_FILES['image']['name'];
                 $tempFile=$_FILES['image']['tmp_name'];
                 $folder ='../upload/'.$file_name;
                 if($_FILES["image"]["size"] > 2000000 || move_uploaded_file($tempFile,$folder )){
-                    $sql="UPDATE `customer` SET `first_name`='$firstname',`last_name`='$lastname',`email`='$email',`pass_word`='$password',`file`='$file_name'  WHERE ID='$id'";
+                    $sql="UPDATE `customer` SET `first_name`='$firstname',`last_name`='$lastname',`email`='$email',`file`='$file_name'  WHERE ID='$id'";
                     $result=mysqli_query($conn,$sql);
                     if($result){
                         header("location:adminpage.php?msg=Student Data has been updated ");
@@ -79,10 +79,7 @@
                         </div>
                 </div>
                 <div class="row mb-3">
-                        <label for="colFormLabel" class="col-sm-2 col-form-label">password</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="colFormLabe4"  name="passwordInput" value="<?php ?>">
-                        </div>
+                        
                         
                 </div>
                 <div class="form-floating">

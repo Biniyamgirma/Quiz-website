@@ -17,7 +17,7 @@ if (isset($_POST["signUp"])) {
             $sqlComand="INSERT INTO customer( `first_name`, `last_name`,`email`, `pass_word`) VALUES ('$firstname','$lastN','$email','$password')";
             $result=mysqli_query($conn,$sqlComand);
             if($result){
-                header("location: signup.php?msg=User has been registered successfully");
+                header("location: index.php?msg=User has been registered successfully");
             }
         }
     }

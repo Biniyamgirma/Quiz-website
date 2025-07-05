@@ -30,7 +30,7 @@ if (isset($_POST["signIn"])) {
             header("location:index001.php");
             
         } else {
-            header("location: signup.php?error=Email or Password incorrect");
+            header("location: index.php?error=Email or Password incorrect");
         }
     }
 }

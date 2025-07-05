@@ -2,7 +2,7 @@
 session_start();
 include 'conn.php';
 if (!isset($_SESSION['firstname'])) {          
-  header('location:signup.php');
+  header('location:index.php');
   exit();
   }
 $id =$_SESSION["id"];

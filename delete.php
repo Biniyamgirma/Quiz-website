@@ -7,6 +7,6 @@ $id= $_SESSION["id"];
  $sqls="DELETE FROM customer WHERE `customer`.`ID` ='$id' ";
 $result=mysqli_query($conn,$sqls);
 if($result){
- header("location:signup.php");
+ header("location:index.php");
      }
     }

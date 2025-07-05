@@ -16,7 +16,7 @@ include("../conn.php");
     <div class="upper-container d-flex" >
     <a href="create.php"><div class="btn1 m-2" ><img src="../img/house-add-fill.svg" alt="" id="image-1"></div></a><div class="hidden-message" id="hidden-1"  style="display:none;"><p>Add new admin</p></div>
         <a href="admin.php"><div class="btn1 m-2" onmouseover=" displayInfo1()" onmouseout="hideAllInfo()"><img src="../img/person-fill-add.svg" alt="" id="image-1"></div></a><div class="hidden-message" id="hidden-1"  style="display:none;"><p>Add new admin</p></div>
-        <a href="message.php"  id="liveToastBtn" type="button"><div class="btn1 m-2" id="btn-2" onmouseover=" displayInfo2()" onmouseout="hideAllInfo()"><img src="../img/chat-left-text-fill.svg" alt="" id="image-2"></div></a><div class="hidden-message" id="hidden-2" style="display:none;"><p>Message</p></div>
+        <a href="message.php"  id="liveToastBtn" type="button"><div class="btn1 m-2" id="btn-2" onmouseover=" displayInfo2()" onmouseout="hideAllInfo()"><img src="../img/broadcast.svg" alt="" id="image-2"></div></a><div class="hidden-message" id="hidden-2" style="display:none;"><p>Message</p></div>
         <a href="editExamQus.php"><div class="btn1 m-2" id="btn-3" onmouseover=" displayInfo3()" onmouseout="hideAllInfo()"><img src="../img/bookmark-star-fill.svg" alt="" id="image-3"></div></a><div class="hidden-message" id="hidden-3" style="display:none;"><p>Edit Exam Qus</p></div>
         <a href="logout.php"><div class="btn1 m-2" id="btn-4" onmouseover=" displayInfo4()" onmouseout="hideAllInfo()"><img src="../img/box-arrow-right.svg" alt="" id="image-4"></div></a><div class="hidden-message" id="hidden-4" style="display:none;"><p>Logout</p></div>
     </div>

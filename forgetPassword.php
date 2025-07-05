@@ -14,10 +14,10 @@
             $sql="UPDATE customer SET pass_word='$password' WHERE email='$Email'";
             $result=mysqli_query($conn,$sql);
         if ($result){
-            header("location: signup.php?msg=Password has been updated successfully");
+            header("location: index.php?msg=Password has been updated successfully");
         }
         } else {
-            header("location: signup.php?error=Error email does not exist");
+            header("location: index.php?error=Error email does not exist");
         }
     }
     ?>

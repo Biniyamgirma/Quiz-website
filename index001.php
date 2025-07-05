@@ -238,19 +238,19 @@ if(isset($_SESSION["firstname"]) && isset($_SESSION["lastname"]) && isset($_SESS
             This website was created using Bootstrap components as part of an internship project requirement at Meleket Advertisement and web design Company<span style="font-size: 20px;"> &copy2024</span>
             </p>
             <div class="container-fluid socal-link">
-              <a href="#"><img src="./img/github.svg" alt=""></a>
+              <a href="https://github.com/Biniyamgirma" target="_blank"><img src="./img/github.svg" alt=""></a>
               <a href="#"><img src="./img/facebook.svg" alt=""></a>
-              <a href="#" target="_blank"><img src="./img/telegram.svg" alt=""></a>
-              <a href="#"><img src="./img/geo-alt-fill.svg" alt=""></a>
+              <a href="https://t.me/Biniyam_girma_1" target="_blank"><img src="./img/telegram.svg" alt=""></a>
+              <a href="#"><img src="./img/icons8-linkedin.svg" alt="linked in logo" target="_blank"></a>
             </div>
           </section>
           <section class="about-section3">
             <form action="comment.php" method="post">
             <div class="mb-1 ">
-                  <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
+                  <label for="exampleFormControlTextarea1" class="form-label" >Comment</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" cols="40" rows="2" name="textArea1"></textarea>
                   <div class="m-1">
-              <button type="submit" class="btn btn-primary" name="commentSubmit">Submit</button>
+              <button type="submit" class="btn btn-primary" name="commentSubmit" style="color:#f0f0f0;background-color: #d62f7f;">Submit</button>
               </div>
               </div>
             </form>

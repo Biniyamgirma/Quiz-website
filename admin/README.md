@@ -1,3 +1,3 @@
 # Quiz-website
 
-i will list every thing
+developed using HTML CSS Bootstrap javascript PHP

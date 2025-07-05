@@ -10,6 +10,8 @@ include '../conn.php'; // include the connection for the database
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+        <meta name="google-site-verification" content="Lt_cVXs81d3r5xQi79Fxx0Ysy9pXzQhq-Ct4Ts_laW4" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../bootstrap/bootstrap.css">
     <link rel="stylesheet" href="../css/adminPage.css">

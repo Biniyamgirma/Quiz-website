@@ -4,7 +4,7 @@ session_start();
 $id= $_SESSION['id'];
 $qid=$_GET['qid'];
 if (!isset($_SESSION['firstname'])) {          
-  header('location:signup.php');
+  header('location:index.php');
   exit();
   }
   $sql_stm= " SELECT * From score WHERE ID = '$id' and  subId = '$qid' ";

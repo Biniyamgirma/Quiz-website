@@ -27,19 +27,19 @@
             $firstname=$row['fName'];
             $lastname=$row['lName'];
             $email=$row['email'];
-            $password001=$row['password'];
+            
             $image=$row['file'];
         }
                 if(isset($_POST['submitButton'])){
                 $firstname=$_POST['firstName'];
                 $lastname=$_POST['lastName'];
                 $email=$_POST['emailInput'];
-                $password=$_POST['password'];
+                
                 $file_name=$_FILES['image']['name'];
                 $tempFile=$_FILES['image']['tmp_name'];
                 $folder ='../upload/'.$file_name;
                 if($_FILES["image"]["size"] < 2000000 && move_uploaded_file($tempFile,$folder )){
-                    $sql="UPDATE `admin` SET `fName`=' $firstname',`lName`='$lastname',`password`='$password',`email`='$email',`file`='$file_name' WHERE ID='$id'";
+                    $sql="UPDATE `admin` SET `fName`=' $firstname',`lName`='$lastname',`email`='$email',`file`='$file_name' WHERE ID='$id'";
                     $result=mysqli_query($conn,$sql);
                     if($result){
                         header("location:adminpage.php?msg=Admin Info Has Been Updated");
@@ -79,10 +79,7 @@
                         </div>
                 </div>
                 <div class="row mb-3">
-                        <label for="colFormLabel" class="col-sm-2 col-form-label">password</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="colFormLabe4"  name="password" value="<?php echo $password001;?>">
-                        </div>
+                        
                         
                 </div>
                 <div class="form-floating">

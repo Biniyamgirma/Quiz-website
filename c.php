@@ -2,7 +2,6 @@
 session_start();
 include 'conn.php';
 $subId=$_GET['qid'];
-
 $sql2="SELECT `Qid`, `Aid`, `subId` FROM `question` WHERE `subId`='$subId'";
  $result2=mysqli_query($conn,$sql2);
    if(isset($_POST['submitButton'])){

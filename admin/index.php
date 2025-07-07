@@ -57,12 +57,12 @@ include ('../conn.php');
               <form action="signin.php" method="post">
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label email-font">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="emailInput">
-                    <div id="emailHelp" class="form-text">your password is stored hased on the database</div>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="emailInput" value="test@gmail.com">
+                    <div id="emailHelp" class="form-text">we will never share your email with anyone else.</div>
                   </div>
                   <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label password-color">Password</label>
-                    <input type="password" autocomplete="off" class="form-control" id="exampleInputPassword1" name="passwordInput">
+                    <input type="password" autocomplete="off" class="form-control" id="exampleInputPassword1" name="passwordInput" value="1234">
                   </div>
                   <div class="row ">
                     <div class="col-1">

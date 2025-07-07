@@ -70,12 +70,12 @@ include ('conn.php');
               <form action="signin.php" method="post">
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label email-font">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="emailInput">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="emailInput" value="g@gmail.com">
                     <div id="emailHelp" class="form-text">enter your email </div>
                   </div>
                   <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label password-color">Password</label>
-                    <input type="password" autocomplete="off" class="form-control" id="exampleInputPassword1" name="passwordInput">
+                    <input type="password" autocomplete="off" class="form-control" id="exampleInputPassword1" name="passwordInput" value="1234">
                   </div>
                   <div class="row">
                     <div class="col-6">

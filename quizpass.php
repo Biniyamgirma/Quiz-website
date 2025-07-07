@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <form method="POST" class="form-control aligncenter mb-3">
             <h4>Enter the Quiz's Password to Start</h4>
         <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password" required><br><br>
+        <input type="password" id="password" name="password" required value="1234"><br><br>
         <button type="submit" value="Start Quiz" class="btn btn-outline-primary btn-info">Start Quiz</button>
         </form>
     </div>

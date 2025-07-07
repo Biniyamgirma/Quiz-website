@@ -1,4 +1,5 @@
 # Quiz-website
+<<<<<<< HEAD
 This project is about simple quiz website 
 
 --Features
@@ -47,3 +48,6 @@ Ensure PHP and MySQL are properly installed and running on your system.
 Access the application:
 
 Open your browser and navigate to http://localhost/quiz-website
+=======
+when using this project you need to add your own config in conn.php file in root folder 
+>>>>>>> 850edb10c39950794f19481b9f27b89b787ecd40
